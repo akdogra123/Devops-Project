@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '192.168.33.30',
-	'username' => 'ci_user',
-	'password' => 'cipassword',
-	'database' => 'ci_database',
+	'username' => 'project_user',
+	'password' => 'project_password',
+	'database' => 'project_database',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +94,4 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+

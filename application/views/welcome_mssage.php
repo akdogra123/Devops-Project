@@ -31,15 +31,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</p>
 		</div>
 		<div>
-			<form method=post action="welcome/book">
-				&nbsp;Name: <input id="name1" type="text" name="name1" style="width: 200px">
-				<p>Dulani was here</p>
+			<form method=post>
+				&nbsp;Name: <input id="name1" type="text" name="fullname" style="width: 200px">
+				<p></p>
 
 				<table border="0" cellpadding="0" cellspacing="2">
 					<tr>
 						<td colspan="2">
 							Source:
-							<input type="text" id="txtSource" name="txtSource" style="width: 200px" />
+							<input type="text" id="txtSource" style="width: 200px" />
 							<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
 							<script type="text/javascript">
 								google.maps.event.addDomListener(window, 'load', function () {
@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 							&nbsp; Destination:
-							<input type="text" id="txtDestination" name="txtDestination" style="width: 200px" />
+							<input type="text" id="txtDestination" style="width: 200px" />
 							<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
 							<script type="text/javascript">
 								google.maps.event.addDomListener(window, 'load', function () {
@@ -374,4 +374,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </body> -->
 </html>
 
- 
+

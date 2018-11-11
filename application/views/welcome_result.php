@@ -25,17 +25,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="row">
 		<table class="table">
 			<tr>
-				<td><em>Email</em></td>
-				<td><?php echo $email ?></td>
+				<td><em>Name</em></td>
+				<td><?php echo $name ?></td>
 			</tr>
-			<tr>
+		<!--	 <tr>
 				<td><em>Number of passengers</em></td>
 				<td><?php echo $passengers ?></td>
 			</tr>
 			<tr>
 				<td><em>Departure date</em></td>
 				<td><?php echo $departure ?></td>
-			</tr>
+			</tr> -->
 		</table>
 	</div>
 	<div class="row">
@@ -45,3 +45,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </body>
 </html>
+ 
