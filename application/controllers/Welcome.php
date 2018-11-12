@@ -35,6 +35,8 @@ class Welcome extends CI_Controller {
 		// $departure = date('Y-m-d H:i:s',strtotime($this->input->post("departure")));
 		// $departure = date('Y-m-d H:i:s',strtotime($this->input->post("departure")));
 		// $data['departure'] = $departure;
+		// $data['date'] = ;
+		// $data['time'] = ;
 		$this->load->model('Booking');
 		$this->Booking->save($data);
 		$this->load->view('welcome_result', $data);
