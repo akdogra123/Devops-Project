@@ -33,7 +33,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div>
 			<form method=post action="welcome/book">
 				&nbsp;Name: <input id="name1" type="text" name="name1" style="width: 200px">
-				<p>Dulani was here</p>
 
 				<table border="0" cellpadding="0" cellspacing="2">
 					<tr>
@@ -86,8 +85,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="small-6 medium-4 columns">
 				<p>Pick Up Date:
 
-					<input id="date1" data-alt-format="false" data-val="true" data-val-required="Please select a valid date within the next 11 months."
-					 maxlength="10" name="PickupDate" pattern="[0-9]*" placeholder="mm/dd/yyyy" type="text" value="" /> </p>
+					<input id="date1" data-alt-format="false" data-val-required="Please select a valid date within the next 11 months."
+					 maxlength="10" name="PickupDate" placeholder="mm/dd/yyyy" type="text" value="" /> </p>
 			</div>
 			<div class="small-6 medium-4 columns">
 				Pick Up Time
@@ -375,3 +374,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </html>
 
  
+

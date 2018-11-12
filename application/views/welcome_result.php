@@ -28,14 +28,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<td><em>Name</em></td>
 				<td><?php echo $name ?></td>
 			</tr>
-		<!--	 <tr>
-				<td><em>Number of passengers</em></td>
-				<td><?php echo $passengers ?></td>
+			 <tr>
+				<td><em>Source</em></td>
+				<td><?php echo $source ?></td>
 			</tr>
 			<tr>
-				<td><em>Departure date</em></td>
-				<td><?php echo $departure ?></td>
-			</tr> -->
+				<td><em>Destination</em></td>
+				<td><?php echo $destination ?></td>
+			</tr> 
+			<tr>
+				<td><em>Date</em></td>
+				<td><?php echo $date ?></td>
+			</tr> 
+			<tr>
+				<td><em>Time </em></td>
+				<td><?php echo $time ?></td>
+			</tr> 
 		</table>
 	</div>
 	<div class="row">
@@ -46,3 +54,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </body>
 </html>
  
+
