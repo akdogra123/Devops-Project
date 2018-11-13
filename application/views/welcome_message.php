@@ -313,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-	<!-- <title>Dushyant Dubaria</title>
+	<!-- <title>DevOps_Project</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/styles.css">
