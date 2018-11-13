@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<head>
 
-<title> practice </title>
+<title> DevOps_Project </title>
 
 <body background="https://image.ibb.co/n6ugQA/Screen-Shot-2018-11-10-at-6-18-26-PM.png" style="width:900px;height:742px;">
 
